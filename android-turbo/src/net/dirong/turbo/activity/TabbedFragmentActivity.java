@@ -1,19 +1,17 @@
 package net.dirong.turbo.activity;
 
-import static com.actionbarsherlock.app.ActionBar.NAVIGATION_MODE_TABS;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.ActionBar.Tab;
+import com.actionbarsherlock.app.ActionBar.TabListener;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.ActionBar.Tab;
-import com.actionbarsherlock.app.ActionBar.TabListener;
+import static com.actionbarsherlock.app.ActionBar.NAVIGATION_MODE_TABS;
 
 public abstract class TabbedFragmentActivity extends FragmentActivity {
 
