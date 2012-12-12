@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$USER_HOME$/github/ActionBarSherlock" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/library" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/samples" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/samples/demos" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/samples/fragments" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/samples/known-bugs" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/samples/roboguice" charset="UTF-8" />
+    <file url="file://$USER_HOME$/github/ActionBarSherlock/samples/styled" charset="UTF-8" />
+  </component>
 </project>
 

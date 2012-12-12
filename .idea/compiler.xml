@@ -4,6 +4,24 @@
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/android-turbo/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/styled/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/styled/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/known-bugs/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/known-bugs/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/fragments/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/fragments/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/library/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/library/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/roboguice/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/roboguice/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/demos/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/demos/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/styled/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/demos/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/fragments/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/roboguice/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/samples/known-bugs/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github/ActionBarSherlock/library/target/generated-sources/r" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -20,7 +38,29 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="actionbarsherlock" />
+        <module name="sample-demos" />
+        <module name="sample-fragments" />
+        <module name="sample-known-bugs" />
+        <module name="sample-roboguice" />
+        <module name="sample-styled" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="actionbarsherlock" target="1.6" />
+      <module name="parent" target="1.6" />
+      <module name="parent-sample" target="1.6" />
+      <module name="sample-demos" target="1.6" />
+      <module name="sample-fragments" target="1.6" />
+      <module name="sample-known-bugs" target="1.6" />
+      <module name="sample-roboguice" target="1.6" />
+      <module name="sample-styled" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

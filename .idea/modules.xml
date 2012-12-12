@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/library/actionbarsherlock.iml" filepath="$USER_HOME$/github/ActionBarSherlock/library/actionbarsherlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-turbo/android-turbo.iml" filepath="$PROJECT_DIR$/android-turbo/android-turbo.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/parent.iml" filepath="$USER_HOME$/github/ActionBarSherlock/parent.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/samples/parent-sample.iml" filepath="$USER_HOME$/github/ActionBarSherlock/samples/parent-sample.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/samples/demos/sample-demos.iml" filepath="$USER_HOME$/github/ActionBarSherlock/samples/demos/sample-demos.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/samples/fragments/sample-fragments.iml" filepath="$USER_HOME$/github/ActionBarSherlock/samples/fragments/sample-fragments.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/samples/known-bugs/sample-known-bugs.iml" filepath="$USER_HOME$/github/ActionBarSherlock/samples/known-bugs/sample-known-bugs.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/samples/roboguice/sample-roboguice.iml" filepath="$USER_HOME$/github/ActionBarSherlock/samples/roboguice/sample-roboguice.iml" />
+      <module fileurl="file://$USER_HOME$/github/ActionBarSherlock/samples/styled/sample-styled.iml" filepath="$USER_HOME$/github/ActionBarSherlock/samples/styled/sample-styled.iml" />
     </modules>
   </component>
 </project>
