@@ -88,7 +88,6 @@ public abstract class TurboAdapter<T, H extends TurboAdapter.TurboHolder> extend
         TurboHolder holder;
         if (view == null) {
             row = inflater.inflate(layout, null);
-            row.setPadding(0, 5, 0, 5);
             holder = createHolder();
             holder.fillHolder(row);
         } else {
